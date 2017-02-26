@@ -5,6 +5,8 @@ from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProper
 from kivy.uix.widget import Widget
 from kivy.vector import Vector
 
+__version__ = "0.2"
+
 
 class PongPaddle(Widget):
     score = NumericProperty(0)
